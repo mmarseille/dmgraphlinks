@@ -1,395 +1,351 @@
 {
-  'ins': {
-    'bas': 2,
-    'bas.utd': 1,
-    'bas.img': 0,
-    'bas.dtd': 2,
-    'bas.fit': 0
+  'pro.vis': {
+    'ins': 5,
+    'bas.img': 4,
+    'sys.dss': 10,
+    'pro.le1': 7,
+    'bas.fit': 24,
+    'bas.imp.eso': 3,
+    'bas.dqc': 28,
+    'pro.le1.vis': 3,
+    'bas.cat': 1
   },
-  'ins.nis': {
-    'bas.utd': 1,
-    'bas.spm': 1,
-    'sys': 0,
-    'sys.sgs': 0,
-    'ins': 0,
-    'bas.fit': 0,
-    'bas.mat': 1,
-    'sys.dss': 2,
-    'bas.dtd': 0
-  },
-  'bas': {},
-  'bas.psf': {
-    'bas': 0,
-    'bas.dtd': 4,
-    'bas.fit': 0,
-    'bas.imp.fits': 0,
-    'sys': 3,
-    'sys.dss': 9,
-    'bas.img': 1
-  },
-  'bas.dtd': {
-    'bas.utd': 1
-  },
-  'bas.msk': {},
-  'bas.mat': {
-    'bas.dtd': 2,
-    'bas.utd': 2
-  },
-  'bas.img': {
-    'bas': 2,
-    'bas.dtd': 1,
-    'bas.cot': 5,
-    'bas.fit': 1,
-    'bas.imp.stc': 5,
-    'bas.imp.eso': 4,
-    'bas.imp.fits': 1,
-    'ins': 13,
-    'bas.msk': 4,
-    'sys': 0,
+  'pro.sir': {
+    'bas.fit': 3,
+    'pro.nir': 2,
+    'pro.le1': 3,
+    'sys.dss': 4,
+    'ins': 3,
+    'bas.imp.eso': 2,
+    'bas.img': 4,
     'bas.ppr': 1,
-    'ins.nis': 1
-  },
-  'bas.ppr': {
-    'sys.dss': 2,
-    'sys': 1
-  },
-  'bas.ppr.par': {
-    'bas': 1,
-    'bas.spm': 0,
-    'bas.imp.stc': 0
-  },
-  'bas.ppr.lda': {
-    'bas': 1
-  },
-  'bas.ppr.ast': {
-    'bas': 1,
-    'bas.dtd': 5
-  },
-  'bas.ppr.met': {},
-  'bas.cat': {
     'bas.dtd': 1,
-    'bas.fit': 1,
-    'bas.imp.stc': 1,
-    'bas': 0,
-    'sys.sgs': 0,
-    'sys': 1,
-    'bas.utd': 2,
-    'ins.nis': 1,
-    'sys.dss': 1,
-    'ins': 1
+    'bas.cot': 2,
+    'pro.le1.nisp': 1
   },
-  'bas.fit': {
-    'sys.sgs': 0,
-    'sys.dss': 1,
-    'bas.imp.fits': 0,
-    'bas.utd': 0
+  'pro.nir': {
+    'pro.le1': 3,
+    'pro.le1.nisp': 8,
+    'sys': 11,
+    'bas.dtd': 4,
+    'bas.cat': 3,
+    'bas.dqc': 12,
+    'bas.img': 8,
+    'bas.imp.eso': 3,
+    'sys.dss': 13,
+    'bas.utd': 1,
+    'bas.ppr': 1,
+    'bas.fit': 33,
+    'bas.ppr.met': 1,
+    'ins': 18
   },
-  'bas.spm': {
-    'bas': 1,
-    'bas.dtd': 3,
-    'bas.utd': 3,
-    'sys.sgs': 0,
-    'bas.imp.stc': 1
-  },
-  'bas.utd': {},
-  'bas.dqc': {
-    'bas': 4,
-    'bas.spm': 7,
-    'bas.imp.stc': 2
-  },
-  'bas.cot': {
-    'bas': 1,
-    'bas.imp': 2,
-    'bas.utd': 0,
-    'ins': 3
-  },
-  'bas.imp': {
-    'bas.imp.stc': 1
-  },
-  'bas.imp.stc': {
-    'bas.dtd': 52,
-    'bas.utd': 1
-  },
-  'bas.imp.eso': {
-    'bas': 2,
-    'sys.sgs': 1
-  },
-  'bas.imp.fits': {
-    'bas.dtd': 0
-  },
-  'bas.mis': {},
   'pro.phz': {
-    'bas.fit': 0,
-    'bas.dtd': 2,
-    'bas.img': 0,
-    'sys.sgs': 0,
-    'ins': 1,
-    'sys.dss': 8
+    'bas.fit': 21,
+    'bas.cat': 1,
+    'bas.cot': 1,
+    'sys.dss': 10
+  },
+  'pro.spe': {
+    'bas.fit': 18,
+    'bas.cat': 1,
+    'sys.dss': 6
   },
   'pro.mer': {
-    'bas.cat': 0,
-    'bas.cot': 4,
-    'bas.dtd': 0,
-    'bas.fit': 0,
+    'bas.cat': 2,
+    'bas.cot': 6,
+    'bas.dqc': 26,
+    'bas.fit': 24,
     'bas.img': 3,
     'bas.msk': 1,
-    'bas.ppr': 8,
-    'ins': 9,
-    'sys.dss': 12
+    'bas.ppr': 6,
+    'ins': 8,
+    'sys.dss': 11
   },
   'pro.sim': {
-    'bas': 0,
-    'bas.fit': 0,
-    'bas.utd': 0,
-    'bas.dtd': 4,
-    'sys.dss': 9,
+    'bas.fit': 23,
+    'sys.dss': 7,
     'ins': 1,
-    'ins.nis': 2,
-    'sys': 0,
     'bas.img': 1,
     'pro.le1': 3,
-    'pro.sim.des': 0,
-    'pro.sim.nisp': 0,
-    'pro.sim.vis': 0,
-    'bas.imp.eso': 2
-  },
-  'pro.sim.simreq': {
-    'sys.dss': 2,
-    'ins': 1,
-    'pro.sim': 3,
-    'pro.sim.des': 0,
-    'pro.sim.nisp': 2,
-    'pro.sim.vis': 1,
-    'bas.dtd': 0,
-    'sys': 2,
-    'pro.sim.ext': 1,
-    'bas.imp.eso': 1
-  },
-  'pro.sim.nisp': {
-    'ins.nis': 0,
-    'bas.fit': 0,
-    'sys.dss': 4,
-    'ins': 0,
-    'pro.sim': 4,
-    'bas.img': 0,
-    'pro.le1': 1,
-    'pro.le1.nisp': 5
+    'bas.imp.eso': 2,
+    'bas.imp.stc': 2
   },
   'pro.sim.vis': {
     'pro.sim': 2,
-    'bas.fit': 0,
+    'bas.fit': 9,
     'sys.dss': 3,
     'pro.le1': 1,
     'pro.le1.vis': 4
   },
-  'pro.sim.tu': {
-    'pro.le1': 1,
-    'pro.sim': 5
+  'pro.sim.simreq': {
+    'sys.dss': 1,
+    'ins': 1,
+    'pro.sim': 1,
+    'pro.sim.nisp': 2,
+    'pro.sim.vis': 1,
+    'bas.dtd': 1,
+    'pro.sim.ext': 1,
+    'bas.imp.eso': 1,
+    'bas.imp.stc': 2
   },
   'pro.sim.ext': {
     'sys.dss': 2,
-    'bas.fit': 0,
+    'bas.fit': 3,
     'ins': 2,
-    'pro.sim': 2,
+    'pro.sim': 1,
     'bas.imp.eso': 2,
-    'bas.img': 0,
-    'pro.ext': 1,
+    'pro.ext.kid': 1,
     'pro.ext.des': 2,
+    'pro.ext.lss': 1,
     'bas.dtd': 2
   },
-  'pro.sir': {
-    'bas': 0,
-    'sys': 0,
-    'sys.sgs': 0,
-    'bas.fit': 0,
-    'pro.nir': 2,
-    'bas.dtd': 0,
-    'pro.le1': 3,
-    'sys.dss': 4,
-    'ins': 1,
-    'bas.imp.eso': 1,
-    'bas.img': 1,
-    'bas.ppr': 1,
-    'pro.le1.nisp': 1
-  },
-  'pro.she': {
-    'bas.dtd': 1,
-    'bas.fit': 2
-  },
-  'pro.she.sl': {
-    'bas.fit': 0,
-    'sys.sgs': 0,
-    'sys.dss': 7
-  },
-  'pro.nir': {
-    'pro.le1': 3,
-    'pro.le1.nisp': 5,
-    'bas': 4,
-    'sys': 1,
-    'bas.dtd': 4,
-    'bas.cat': 2,
-    'bas.cot': 0,
-    'bas.img': 2,
-    'bas.imp.eso': 1,
-    'sys.sgs': 0,
-    'sys.dss': 10,
-    'bas.utd': 1,
-    'bas.ppr': 1,
-    'bas.fit': 0,
-    'bas.ppr.met': 1,
-    'pro.mer': 0,
-    'ins': 18
-  },
-  'pro.spe': {
-    'bas': 1,
-    'bas.spm': 8,
-    'bas.imp.stc': 1
-  },
-  'pro.vis': {
-    'bas': 1,
-    'ins': 5,
-    'bas.img': 0,
-    'bas.utd': 0,
+  'pro.sim.tu': {
+    'pro.le1': 1,
+    'pro.sim': 3,
     'sys.dss': 2,
-    'bas.dtd': 0,
-    'sys': 0,
-    'pro.le1': 7,
-    'bas.fit': 0,
-    'bas.ppr': 5,
-    'pro.ext': 0,
-    'pro.le1.vis': 3,
-    'ins.nis': 0,
-    'bas.cat': 1,
-    'bas.msk': 2,
-    'bas.cot': 2
+    'bas.fit': 6
   },
-  'pro.dqc.dqt': {
-    'sys': 0,
-    'bas.dqc': 0,
-    'bas': 0
-  },
-  'pro.le3.athena': {
-    'sys.sgs': 0,
+  'pro.sim.nisp': {
+    'ins': 1,
+    'bas.fit': 12,
     'sys.dss': 4,
-    'bas.fit': 0,
-    'bas.utd': 0,
-    'bas.imp.stc': 2
-  },
-  'pro.le3.galcluster': {
-    'bas.fit': 0,
-    'sys.sgs': 0,
-    'sys.dss': 3
-  },
-  'pro.le3.pallas': {
-    'sys.sgs': 0,
-    'sys.dss': 3,
-    'bas.fit': 0,
-    'pro.le3.athena': 3
-  },
-  'pro.ext': {
-    'bas': 16,
-    'bas.img': 2,
-    'sys.sgs': 1,
-    'sys.dss': 10,
-    'bas.dtd': 6,
-    'bas.cot': 4,
-    'bas.fit': 0,
-    'sys': 0,
-    'ins': 16,
-    'bas.ppr.par': 27,
-    'bas.ppr.lda': 3,
-    'bas.ppr.ast': 6,
-    'bas.imp.eso': 2
-  },
-  'pro.ext.des': {
-    'bas.cat': 0,
-    'bas.fit': 0,
-    'bas.img': 0,
-    'bas.ppr': 5,
-    'ins': 6,
-    'sys.dss': 17
+    'pro.sim': 4,
+    'pro.le1': 1,
+    'pro.le1.nisp': 4
   },
   'pro.le1': {
     'bas.dtd': 5,
     'bas.imp.stc': 2,
-    'bas.img': 2,
-    'sys': 0,
+    'bas.img': 3,
     'sys.dss': 1,
     'bas.cot': 1,
-    'ins': 1
-  },
-  'pro.le1.nisp': {
-    'bas.fit': 0,
-    'sys.sgs': 0,
-    'sys.dss': 2,
-    'bas.img': 0,
-    'ins': 1,
-    'pro.le1': 2
+    'ins': 2
   },
   'pro.le1.vis': {
-    'bas.fit': 0,
-    'sys.sgs': 0,
+    'bas.fit': 3,
     'sys.dss': 1,
     'bas.imp.stc': 5,
     'bas.imp.fits': 1,
-    'pro.le1': 1,
+    'pro.le1': 3,
     'ins': 1,
     'bas.img': 2,
     'bas.cot': 1
   },
-  'sys': {
-    'bas': 2
+  'pro.le1.nisp': {
+    'bas.fit': 6,
+    'sys.dss': 2,
+    'ins': 2,
+    'pro.le1': 3
   },
-  'sys.sgs': {
-    'sys': 3,
+  'pro.ext': {
+    'bas.dqc': 16,
+    'bas.img': 11,
+    'sys.dss': 10,
+    'bas.cot': 4,
+    'bas.fit': 27,
+    'bas.msk': 1,
+    'ins': 20,
+    'bas.ppr.par': 12
+  },
+  'pro.ext.des': {
+    'bas.cat': 1,
+    'bas.dqc': 18,
+    'bas.fit': 42,
+    'bas.img': 4,
+    'bas.ppr': 4,
+    'ins': 5,
+    'sys.dss': 17
+  },
+  'pro.ext.lss': {
+    'bas.cat': 1,
+    'bas.fit': 18,
+    'bas.img': 4,
+    'bas.ppr': 3,
+    'ins': 2,
+    'sys.dss': 7
+  },
+  'pro.ext.kid': {
+    'bas.cat': 1,
+    'bas.cot': 7,
+    'bas.dtd': 6,
+    'bas.fit': 9,
+    'bas.img': 4,
+    'bas.imp.eso': 4,
+    'bas.ppr.ast': 5,
+    'bas.ppr.par': 24,
+    'ins': 16,
+    'sys': 16,
+    'sys.dss': 9
+  },
+  'pro.le3.galcluster': {
+    'bas.fit': 9,
+    'sys.dss': 3
+  },
+  'pro.le3.wl': {
+    'bas.imp.stc': 3,
+    'bas.fit': 3,
     'sys.dss': 1
   },
-  'sys.dss': {
-    'sys.sgs': 0,
-    'sys': 8
+  'pro.le3.wl.twodmass': {
+    'pro.le3.wl': 3,
+    'sys.dss': 3,
+    'bas.dtd': 1,
+    'bas.fit': 9,
+    'bas.imp.stc': 1
   },
-  'ial': {
-    'sys': 4,
-    'sys.sgs': 0,
+  'pro.le3.wl.cmtwopcf': {
+    'sys.dss': 7,
+    'bas.fit': 21,
+    'pro.le3.wl.twopcf': 4,
+    'pro.le3.wl': 1
+  },
+  'pro.le3.wl.twopcf': {
+    'pro.le3.wl': 7,
+    'sys.dss': 8,
+    'bas.fit': 24,
+    'bas.utd': 0
+  },
+  'pro.le3.gc': {
+    'sys.dss': 11,
+    'bas.fit': 33
+  },
+  'pro.she': {
+    'bas.fit': 30,
+    'bas.cat': 6,
+    'sys.dss': 10
+  },
+  'pro.she.sl': {
+    'bas.fit': 21,
+    'sys.dss': 7
+  },
+  'sys': {},
+  'sys.til': {
+    'bas.imp.stc': 2,
+    'bas.cot': 1,
+    'sys': 1
+  },
+  'sys.tsk': {
+    'sys': 1
+  },
+  'sys.log': {},
+  'sys.ial': {
+    'sys': 3,
     'sys.dss': 1,
-    'sys.orc': 2,
-    'sys.tsk': 0,
-    'sys.ial': 1
+    'sys.orc': 3
   },
   'sys.ial.test': {
     'sys': 1,
     'sys.dss': 1
   },
-  'tsk': {
-    'sys.tsk': 1,
-    'sys.sgs': 0,
-    'sys': 1,
-    'sys.dss': 0
+  'sys.orc': {
+    'sys': 5,
+    'sys.dss': 2,
+    'sys.log': 1,
+    'sys.tsk': 1
   },
   'sys.mdb': {
     'sys': 1,
     'sys.dss': 1,
-    'bas.dtd': 0,
-    'bas.utd': 0,
-    'bas.imp.stc': 0,
-    'bas.fit': 0
+    'bas.utd': 2
   },
   'sys.mdb.aocs': {
     'sys': 1,
-    'bas.dtd': 0,
-    'bas.utd': 0,
-    'bas.imp.stc': 3,
-    'bas.fit': 0
+    'bas.imp.stc': 3
   },
-  'sys.orc': {
-    'sys': 6,
-    'sys.dss': 2,
-    'sys.ial': 0,
-    'sys.tsk': 1,
-    'sys.sgs': 0
+  'sys.dss': {
+    'sys': 2
   },
-  'sys.log': {},
   'sys.pla': {
+    'sys': 3,
+    'bas.dtd': 5,
+    'bas.ppr': 6,
+    'bas.imp.stc': 6
+  },
+  'sys.dis': {},
+  'bas.msk': {},
+  'bas.utd': {},
+  'bas.fit': {
+    'sys.dss': 1,
+    'bas.imp.fits': 22,
+    'bas.utd': 3
+  },
+  'bas.dtd': {
+    'bas.utd': 15
+  },
+  'bas.img': {
+    'bas.cot': 13,
+    'bas.imp.stc': 3,
+    'bas.imp.eso': 4,
+    'bas.imp.fits': 1,
+    'bas.ppr': 1,
+    'ins': 18,
+    'bas.msk': 5
+  },
+  'bas.cat': {
+    'bas.fit': 1,
+    'bas.cot': 1,
+    'sys': 2,
+    'bas.utd': 2,
+    'sys.dss': 1,
+    'ins': 1
+  },
+  'bas.cot': {
+    'bas.imp': 2,
+    'bas.utd': 1,
+    'ins': 3,
+    'bas.imp.stc': 1
+  },
+  'bas.mis': {},
+  'bas.dqc': {
     'sys': 4
+  },
+  'bas.dqc.ext': {
+    'bas.dqc': 23
+  },
+  'bas.dqc.dqc': {
+    'bas.dqc': 1
+  },
+  'bas.mat': {
+    'bas.dtd': 2,
+    'bas.utd': 2
+  },
+  'bas.imp': {
+    'bas.imp.stc': 1
+  },
+  'bas.imp.fits': {
+    'bas.dtd': 0
+  },
+  'bas.imp.eso': {
+    'sys': 2,
+    'bas.cat': 1
+  },
+  'bas.imp.stc': {
+    'bas.dtd': 52,
+    'bas.utd': 12
+  },
+  'bas.psf': {
+    'sys': 3,
+    'bas.dtd': 4,
+    'sys.dss': 9,
+    'bas.img': 2
+  },
+  'bas.ppr': {
+    'sys.dss': 2,
+    'sys': 1
+  },
+  'bas.ppr.met': {},
+  'bas.ppr.lda': {
+    'sys': 1
+  },
+  'bas.ppr.ast': {
+    'sys': 1,
+    'bas.dtd': 5
+  },
+  'bas.ppr.par': {
+    'sys': 1
+  },
+  'ins': {
+    'bas.utd': 1,
+    'bas.dtd': 3
   }
 }

@@ -1,1 +1,1003 @@
-{'dpd.psf': {'bas.ppr': 1, 'bas.psf': 1, 'sys': 1}, 'dpd.phz': {'pro.phz': 7, 'sys': 9, 'bas.ppr': 9, 'sys.sgs': 0, 'sys.dss': 2}, 'dpd.mer': {'sys': 11, 'pro.mer': 11, 'bas.ppr': 11}, 'dpd.sim': {'sys': 13, 'bas.ppr': 13, 'pro.sim.des': 0, 'pro.sim.ext': 3, 'pro.sim.nisp': 4, 'pro.ext': 0, 'pro.sim': 2, 'pro.sim.vis': 2, 'pro.sim.simreq': 1, 'pro.sim.tu': 1}, 'dpd.sir': {'pro.sir': 4, 'bas.ppr': 4, 'sys': 4, 'bas.img': 0, 'pro.nir': 0}, 'dpd.she': {'sys.dss': 13, 'bas.ppr': 22, 'sys': 22, 'sys.sgs': 0, 'pro.she.sl': 5, 'pro.she': 2, 'pro.phz': 2}, 'dpd.nir': {'pro.nir': 11, 'sys': 11, 'bas.ppr': 11}, 'dpd.spe': {'bas.ppr': 4, 'sys': 4, 'pro.spe': 4}, 'dpd.vis': {'sys': 17, 'pro.vis': 16, 'bas.ppr': 17, 'pro.ext': 0, 'sys.dss': 0, 'bas.cat': 0}, 'dpd.dqc': {'bas.dqc': 1, 'sys': 1}, 'dpd.le3.athena': {'bas.ppr': 6, 'sys': 6, 'pro.le3.athena': 6}, 'dpd.le3.galcluster': {'bas.ppr': 2, 'sys': 2, 'pro.le3.galcluster': 2}, 'dpd.le3.pallas': {'bas.ppr': 3, 'sys': 3, 'pro.le3.pallas': 3}, 'dpd.ext': {'sys': 24, 'pro.ext': 15, 'bas.ppr': 23, 'bas.img': 3, 'bas.cot': 2, 'bas.cat': 1, 'bas.psf': 1}, 'dpd.ext.des': {'sys': 16, 'pro.ext.des': 16, 'bas.ppr': 16}, 'dpd.le1': {'pro.le1.nisp': 2, 'bas.ppr': 3, 'sys': 3, 'pro.le1.vis': 1}}
+{
+  'dpd.vis.visstackedframe': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.vis.cat': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.vis.vismasterbiasframe': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.vis.configurationset': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.vis.calibratedframe': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.vis.observationframe': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.vis.auxdata': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.vis.visframe': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.vis.vismasterflatframe': {
+    'pro.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sir.combinedspectra': {
+    'pro.sir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sir.scienceframe': {
+    'pro.sir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sir.combinedspectralist': {
+    'pro.sir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sir.extractedspectracollection': {
+    'pro.sir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sir.configurationset': {
+    'pro.sir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sir.locationtable': {
+    'pro.sir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.persistence': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.relphotdetcalibration': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.largeflat': {
+    'sys': 1,
+    'pro.nir': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.superflat': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.calibratedframe': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.relphotoexpcalibration': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.masterflat': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.configurationset': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.relphotofieldcalibration': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.stackedframecatalog': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.calibratedframecatalog': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.absphotocalibration': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.stackedframe': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.nir.masterdark': {
+    'pro.nir': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.phz.physicalparameterstemplatemodel': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'sys.dss': 1
+  },
+  'dpd.phz.machinelearningmodel': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'sys.dss': 1
+  },
+  'dpd.phz.coaddedpdzbiasmap': {
+    'pro.phz': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.phz.startemplatemodel': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'sys.dss': 1
+  },
+  'dpd.phz.referencesample': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'pro.phz': 1
+  },
+  'dpd.phz.biascorrectionmap': {
+    'pro.phz': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.phz.galaxytemplatemodel': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'sys.dss': 1
+  },
+  'dpd.phz.biascorrectionmodel': {
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1,
+    'sys.dss': 1
+  },
+  'dpd.phz.pdzcombinationmodel': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'sys.dss': 1
+  },
+  'dpd.phz.classificationmodel': {
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1,
+    'sys.dss': 1
+  },
+  'dpd.phz.outputcatalog': {
+    'pro.phz': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.phz.meanspeczbiasmap': {
+    'pro.phz': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.spe.spezcatalog': {
+    'pro.spe': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.objectcatalog': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.finalcatalog': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.psfmatchedmosaic': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.singlebandcatalog': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.detectionmosaic': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.configurationset': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.mosaic': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.bksmosaic': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.mer.segmentationmap': {
+    'sys': 1,
+    'pro.mer': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sim.nipoutput': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'pro.sim.nisp': 1
+  },
+  'dpd.sim.nisoutput': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'pro.sim.nisp': 1
+  },
+  'dpd.sim.simrequest': {
+    'sys': 1,
+    'bas.dqc': 1,
+    'pro.sim.simreq': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sim.visoutput': {
+    'pro.sim.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sim.nisinputconfiguration': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'pro.sim.nisp': 1
+  },
+  'dpd.sim.extkidsoutput': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'pro.sim.ext': 1
+  },
+  'dpd.sim.nipinputconfiguration': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'pro.sim.nisp': 1
+  },
+  'dpd.sim.trueuniverseoutput': {
+    'sys': 1,
+    'bas.dqc': 1,
+    'pro.sim.tu': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sim.starscatalogproduct': {
+    'pro.sim': 1,
+    'bas.dqc': 1,
+    'sys': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sim.visinputconfiguration': {
+    'sys': 1,
+    'bas.ppr': 1,
+    'bas.dqc': 1,
+    'pro.sim.vis': 1
+  },
+  'dpd.sim.extinputconfiguration': {
+    'sys': 1,
+    'pro.sim.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sim.extlsstoutput': {
+    'sys': 1,
+    'bas.dqc': 1,
+    'pro.sim.ext': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sim.galaxycatalogproduct': {
+    'pro.sim': 1,
+    'bas.dqc': 1,
+    'sys': 1,
+    'bas.ppr': 1
+  },
+  'dpd.sim.extdesoutput': {
+    'sys': 1,
+    'pro.sim.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le1.sirrawframe': {
+    'pro.le1.nisp': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le1.nirrawframe': {
+    'pro.le1.nisp': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le1.visrawframe': {
+    'pro.le1.vis': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.viscatalog': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.mastertable': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.detrendedframe': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.configurationset': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.obscollectionparameters': {
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1,
+    'bas.ppr.par': 1
+  },
+  'dpd.ext.obscollection': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc.ext': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.photomsolution': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc.ext': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.sourcecatalog': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc.ext': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.referencetablecutout': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.astromsolution': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc.ext': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.mastertablecutout': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.stackedframe': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.bandpasssolution': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.calibratedframe': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.referencetable': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.gaiacatalog': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.psf': {
+    'sys': 1,
+    'pro.ext': 1,
+    'bas.dqc.ext': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.rawframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.biasframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.masterflatframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.calibratedframecatalog': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.aheadtemplate': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.masterbiasframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.masterphotflatframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.badpixelmap': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.configurationset': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.stackedframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.calibratedframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.stackedframecatalog': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.xtalkcalibration': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.flatframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.des.masterzpflatframe': {
+    'sys': 1,
+    'pro.ext.des': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.lss.stackedcatalog': {
+    'sys': 1,
+    'pro.ext.lss': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.lss.calexp': {
+    'sys': 1,
+    'pro.ext.lss': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.lss.calexpcatalog': {
+    'sys': 1,
+    'pro.ext.lss': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.lss.psfmodel': {
+    'sys': 1,
+    'bas.dqc': 1,
+    'pro.ext.lss': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.lss.stackedimage': {
+    'sys': 1,
+    'pro.ext.lss': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.lss.singlevisitimage': {
+    'sys': 1,
+    'pro.ext.lss': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.kid.rawscienceframe': {
+    'sys': 1,
+    'pro.ext.kid': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.kid.masterflatframe': {
+    'sys': 1,
+    'pro.ext.kid': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.ext.kid.biasframe': {
+    'sys': 1,
+    'pro.ext.kid': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.dqc.dynamicflags': {
+    'bas.dqc': 1,
+    'sys': 1,
+    'bas.dqc.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.dqc.humanflags': {
+    'bas.dqc': 2,
+    'sys': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.galcluster.fitfile': {
+    'sys': 1,
+    'pro.le3.galcluster': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.galcluster.fofparams': {
+    'sys': 1,
+    'pro.le3.galcluster': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twodmass.peakcount2d': {
+    'sys': 1,
+    'pro.le3.wl.twodmass': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twodmass.convergencemap2d': {
+    'sys': 1,
+    'pro.le3.wl.twodmass': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twodmass.snrmap2d': {
+    'sys': 1,
+    'pro.le3.wl.twodmass': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twodmass.paramssnrmap2d': {
+    'sys': 1,
+    'pro.le3.wl.twodmass': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twodmass.paramspeakcountconvergence2d': {
+    'sys': 1,
+    'pro.le3.wl.twodmass': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twodmass.paramspeakcountmassap2d': {
+    'sys': 1,
+    'pro.le3.wl.twodmass': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twodmass.paramsconvergencemap2d': {
+    'sys': 1,
+    'pro.le3.wl.twodmass': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.shearpos2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.pospos2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.shearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.pebshearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.clpospos2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.cosebishearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.pebshearpos2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.paramsclpospos2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.paramsshearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.paramspospos2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.paramsshearpos2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.paramspebshearpos2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.paramscosebishearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.cmtwopcf.paramspebshearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.cmtwopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.cosebishearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.pebshearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.clpospos2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.shearpos2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.pebshearpos2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.pospos2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.shearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.paramsclpospos2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.paramsshearpos2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.paramspospos2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.paramsshearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.paramspebshearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.paramscosebishearshear2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.wl.twopcf.paramspebshearpos2d': {
+    'sys': 1,
+    'pro.le3.wl.twopcf': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.pair2d': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.corr2d': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.pair1d': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.corr1d': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.cov2d': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.cov1d': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.covmu': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.spe1d': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.spe2d': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.catdatain': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.le3.gc.catrandin': {
+    'sys': 1,
+    'pro.le3.gc': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.she.shearmeasurement': {
+    'pro.she': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.she.regausstraining': {
+    'pro.she': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.she.shearksbtraining': {
+    'pro.she': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.she.shearbfdtraining': {
+    'pro.she': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.she.shearlensmctraining': {
+    'pro.she': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.she.validatedshearmeasurement': {
+    'pro.she': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.she.shearmomentsmltraining': {
+    'sys': 1,
+    'sys.dss': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  },
+  'dpd.psf': {
+    'bas.psf': 1,
+    'sys': 1,
+    'bas.dqc': 1,
+    'bas.ppr': 1
+  }
+}
